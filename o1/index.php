@@ -8,6 +8,9 @@ include __DIR__ .'/Udra.php';
 // Bebras::createBebras(45);
 $obj1 = Bebras::createBebras(19);
 
+
+
+
 // $obj1->init(77);
 
 $obj2 = $obj1;

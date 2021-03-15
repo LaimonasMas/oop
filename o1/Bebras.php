@@ -17,15 +17,11 @@ class Bebras
     static public function createBebras($age)
     {
         echo 'Lets create';
-
-        
-
-
         return self::$BebroObjektas ?? self::$BebroObjektas = new self($age);
     }
 
 
-    private function __construct($age)
+    public function __construct($age)
     {
         echo '<br>';
         echo 'Konstruojam';
