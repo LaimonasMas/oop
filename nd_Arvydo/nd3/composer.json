@@ -1,0 +1,16 @@
+{
+    "name": "laimonas/oop",
+    "authors": [{
+        "name": "Laimonas Masionis",
+        "email": "71811684+LaimonasMas@users.noreply.github.com"
+    }],
+    "require": {
+        "ramsey/uuid": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Miskas\\Didelis\\": "bla/",
+            "Miskas\\Mazas\\": "bla/"
+        }
+    }
+}

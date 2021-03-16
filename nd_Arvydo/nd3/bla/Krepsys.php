@@ -1,5 +1,8 @@
 <?php
 
+namespace Miskas\Didelis;
+use Miskas\Mazas\Grybas;
+
 class Krepsys {
 
     private $yra = 0;
