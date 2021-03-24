@@ -1,9 +1,13 @@
 <?php
 
+include __DIR__ .'/Miskas.php';
+include __DIR__ .'/Giria.php';
 include __DIR__ .'/Eat.php';
 include __DIR__ .'/River.php';
 include __DIR__ .'/Bebras.php';
 include __DIR__ .'/Udra.php';
+include __DIR__ .'/Miskas.php';
+
 
 
 
@@ -17,7 +21,7 @@ $obj3->setRiver('Nilas');
 
 
 echo '<pre>';
-$obj1->gold;
+// $obj1->gold;
 
 echo Bebras::$color;
 
